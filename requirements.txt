@@ -16,3 +16,7 @@ pyarrow
 # REST API
 fastapi
 uvicorn
+
+# System & Analytics
+psutil
+duckdb
