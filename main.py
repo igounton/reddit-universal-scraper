@@ -17,6 +17,10 @@ import tempfile
 from urllib.parse import urlparse
 from pathlib import Path
 
+# Suppress HTTPS proxy ssl verification warnings from urllib3
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 # Prevent Unicode encoding issues in Windows console
 import sys
 if sys.platform.startswith('win'):
