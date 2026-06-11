@@ -81,14 +81,29 @@ You can configure proxies in four ways:
 4. **Web Dashboard**:
    Provide the **Proxy URL (Optional)** in the Scraper control tab when starting a scrape.
 
-> [!TIP]
-> **ScrapingAnt Integration Note**: ScrapingAnt usernames must be prefixed with `customer-` (e.g., `customer-YOUR_USERNAME`). When integrating ScrapingAnt with Python `requests` or `aiohttp`, use the **HTTPS** proxy protocol on port **443** (e.g., `https://customer-YOUR_USERNAME:PASSWORD@datacenter.scrapingant.com:443`) for correct secure SSL tunnel authentication.
-
 ---
 
-### Recommended Proxy Provider
+### Recommended Proxy Providers
 
-For the most reliable scraping performance, we recommend **[ScrapingAnt](https://scrapingant.com/?ref=yjk4mme)**. They provide high-performance datacenter proxies (for speed and economy) and residential proxies (for bypassing strict blocks).
+#### Swiftproxy Residential Proxies
+
+**[Swiftproxy](https://www.swiftproxy.net/?ref=reddituniversalscraper)** - Residential proxies optimized for Reddit scraping, sentiment analysis, market research, AI training datasets, and large-scale data collection. Reduce rate limits and blocks with high-quality residential IPs.
+
+* 🌍 80M+ residential IPs across 190+ countries
+* 🔄 Rotating & sticky sessions for reliable scraping workflows
+* ⚡ Non-expiring traffic - use your bandwidth anytime
+* 🔐 HTTP, HTTPS & SOCKS5 support
+* 🆓 Free trial available
+* 🎁 10% OFF with code **`PROXY90`**
+
+[![Swiftproxy Residential Proxies](docs/SwiftProxy.png)](https://www.swiftproxy.net/?ref=reddituniversalscraper)
+
+#### ScrapingAnt Proxies
+
+For reliable scraping performance, we recommend **[ScrapingAnt](https://scrapingant.com/?ref=yjk4mme)**. They provide high-performance datacenter proxies (for speed and economy) and residential proxies (for bypassing strict blocks).
+
+> [!TIP]
+> **ScrapingAnt Integration Note**: ScrapingAnt usernames must be prefixed with `customer-` (e.g., `customer-YOUR_USERNAME`). When integrating ScrapingAnt with Python `requests` or `aiohttp`, use the **HTTPS** proxy protocol on port **443** (e.g., `https://customer-YOUR_USERNAME:PASSWORD@datacenter.scrapingant.com:443`) for correct secure SSL tunnel authentication.
 
 #### 🛜 Datacenter Proxies (Fast & Cost-Effective)
 Great for scraping mirrors and moderate-volume queries:
